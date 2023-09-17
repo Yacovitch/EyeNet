@@ -63,7 +63,7 @@ Note: Grid size can be also adjusted for further details, please refer to the co
 python main_Sensat.py
 ```
 
-Note: Before Training, please modify data_set_dir (line 19) to your sampled data directory in tool.py.
+Note: Before Training, please modify data_set_dir (line 21) to your sampled data directory in tool.py.
 
 
 - Start Evaluation on validation set (for visualization):
@@ -103,7 +103,7 @@ python data_processing/input_preparation_DALES.py --dataset_path "YOUR_DATA_PATH
 ```
 python main_DALES.py
 ```
-Note: Before Training, please modify data_set_dir (line 110) to your sampled data directory in tool.py.
+Note: Before Training, please modify data_set_dir (line 73) to your sampled data directory in tool.py.
 
 
 - Start Evaluation:
@@ -128,7 +128,7 @@ python data_processing/input_preparation_toronto3D.py --dataset_path "YOUR_DATA_
 ```
 python main_Toronto3D.py
 ```
-Note: Before Training, please modify data_set_dir (line 212) to your sampled data directory in tool.py.
+Note: Before Training, please modify data_set_dir (line 125) to your sampled data directory in tool.py.
 
 
 - Start Evaluation:
@@ -139,3 +139,34 @@ Note: saved models are located in the "trained_weights/Toronto3D" folder.
 Note: The "YOUR_SAVED_MODEL" path has to include snap-NumberofSteps e.g. trained_weights/Toronto3D/First_Train/snapshots/snap-17001.
 
 - The evaluation results will be saved in the "test" folder.
+
+### Citation
+Thank you for showing interest in our work. Please consider citing:
+```
+@InProceedings{Yoo_2023_CVPR,
+    author    = {Yoo, Sunghwan and Jeong, Yeonjeong and Jameela, Maryam and Sohn, Gunho},
+    title     = {Human Vision Based 3D Point Cloud Semantic Segmentation of Large-Scale Outdoor Scenes},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {6576-6585}
+}
+```
+
+
+### Acknowledgement
+Part of our work refers to ([nanoflann](https://github.com/jlblancoc/nanoflann)) and ([RandLA-Net](https://github.com/QingyongHu/RandLA-Net)).
+
+
+### License
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
