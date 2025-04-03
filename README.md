@@ -1,6 +1,6 @@
 # Human Vision Based 3D Point Cloud Semantic Segmentation of Large-Scale Outdoor Scenes (CVPR PCV Workshop 2023)
 
-This is the official GitHub page of **EyeNet** (CVPR PCV Workshop 2023, Oral and Poster presentation), an efficient and effective human vision-inspired 3d semantic segmentation network for point clouds. For more details, please refer to our paper ([arXiv](https://arxiv.org/abs/1904.08889)).
+This is the official GitHub page of **EyeNet** (CVPR PCV Workshop 2023, Oral and Poster presentation), an efficient and effective human vision-inspired 3d semantic segmentation network for point clouds. For more details, please refer to our paper ([CVPR PCV Workshop 2023](https://openaccess.thecvf.com/content/CVPR2023W/PCV/html/Yoo_Human_Vision_Based_3D_Point_Cloud_Semantic_Segmentation_of_Large-Scale_CVPRW_2023_paper.html)).
 
 ### Preparation
 
