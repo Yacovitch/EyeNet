@@ -6,17 +6,7 @@ This is the official GitHub page of **EyeNet** (CVPR PCV Workshop 2023, Oral and
 
 - Clone this repository.
 
-- There are two ways to prepare the environment. (However, it is recommended to use the docker container)
-
-a. Using docker container.
-
-You can install my docker container:
-
-```
-docker pull ausmlab/mrnet:cuda10.2-cudnn7-py3.7_pytorch1.5_TF2.9.1_automl
-```
-
-b. Setting up the environment on your own.
+Setting up the environment on your own.
 
 The code has been tested with Python 3.7, Tensorflow 11.1, Cuda 10.2, cuDNN 7.4.1 on Ubuntu 16.04.
 
